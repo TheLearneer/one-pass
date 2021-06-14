@@ -1,0 +1,43 @@
+{
+  "name": "one-pass",
+  "productName": "One Pass",
+  "description": "Easy to use 2FA management app for your desktop",
+  "version": "0.1.0",
+  "author": "Santosh Bhandari <contact@santoshb.com.np> (https://santoshb.com.np)",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run build:vite && electron-builder --config=electron.build.config.js",
+    "dev": "cross-env NODE_ENV=development PORT=8080 concurrently --kill-others \"npm run dev:vite\" \"npm run dev:electron\"",
+    "dev:electron": "electron src/main",
+    "dev:vite": "vite",
+    "build:vite": "vue-tsc --noEmit && vite build",
+    "build:electron": "electron-builder --config=electron.build.config.js",
+    "serve:vite": "vite preview"
+  },
+  "dependencies": {
+    "@otplib/preset-browser": "^12.0.1",
+    "@vueuse/core": "^5.0.3",
+    "electron-store": "^8.0.0",
+    "keytar": "^7.7.0",
+    "otplib": "^12.0.1",
+    "vee-validate": "^4.4.5",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.2.6",
+    "concurrently": "^6.2.0",
+    "cross-env": "^7.0.3",
+    "electron": "^13.1.2",
+    "electron-builder": "^22.11.7",
+    "eslint": "^7.28.0",
+    "postcss": "^8.3.1",
+    "tailwindcss": "^2.1.4",
+    "typescript": "^4.3.2",
+    "vite": "^2.3.7",
+    "vue-tsc": "^0.0.24",
+    "yup": "^0.32.9"
+  }
+}

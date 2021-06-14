@@ -1,0 +1,127 @@
+[
+    {
+        "name": "Default",
+        "id": "default",
+        "icon": "default.svg"
+    },
+    {
+        "name": "DigitalOcean",
+        "id": "digitalocean",
+        "icon": "digitalocean.svg"
+    },
+    {
+        "name": "Dropbox",
+        "id": "dropbox",
+        "icon": "dropbox.svg"
+    },
+    {
+        "name": "Github",
+        "id": "github",
+        "icon": "github.svg"
+    },
+    {
+        "name": "Gmail",
+        "id": "gmail",
+        "icon": "gmail.svg"
+    },
+    {
+        "name": "Heroku",
+        "id": "heroku",
+        "icon": "heroku.svg"
+    },
+    {
+        "name": "Twitter",
+        "id": "twitter",
+        "icon": "twitter.svg"
+    },
+    {
+        "name": "Facebook",
+        "id": "facebook",
+        "icon": "facebook.svg"
+    },
+    {
+        "name": "Cloudflare",
+        "id": "cloudflare",
+        "icon": "cloudflare.svg"
+    },
+    {
+        "name": "Linkedin",
+        "id": "linkedin",
+        "icon": "linkedin.svg"
+    },
+    {
+        "name": "Microsoft",
+        "id": "microsoft",
+        "icon": "microsoft.svg"
+    },
+    {
+        "name": "Namecheap",
+        "id": "namecheap",
+        "icon": "namecheap.svg"
+    },
+    {
+        "name": "NPM",
+        "id": "npm",
+        "icon": "npm.svg"
+    },
+    {
+        "name": "PayPal",
+        "id": "paypal",
+        "icon": "paypal.svg"
+    },
+    {
+        "name": "Adobe",
+        "id": "adobe",
+        "icon": "adobe.svg"
+    },
+    {
+        "name": "Discord",
+        "id": "discord",
+        "icon": "discord.svg"
+    },
+    {
+        "name": "Firefox",
+        "id": "firefox",
+        "icon": "firefox.svg"
+    },
+    {
+        "name": "Amazon",
+        "id": "amazon",
+        "icon": "amazon.svg"
+    },
+    {
+        "name": "Google",
+        "id": "google",
+        "icon": "google.svg"
+    },
+    {
+        "name": "Instagram",
+        "id": "instagram",
+        "icon": "instagram.svg"
+    },
+    {
+        "name": "Reddit",
+        "id": "reddit",
+        "icon": "reddit.svg"
+    },
+    {
+        "name": "Slack",
+        "id": "slack",
+        "icon": "slack.svg"
+    },
+    {
+        "name": "Snapchat",
+        "id": "snapchat",
+        "icon": "snapchat.svg"
+    },
+    {
+        "name": "Steam",
+        "id": "steam",
+        "icon": "steam.svg"
+    },
+    {
+        "name": "Gitlab",
+        "id": "gitlab",
+        "icon": "gitlab.svg"
+    }
+]
